@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+    background: rgb(31, 28, 24);
+    background: -moz-linear-gradient(308deg, rgba(31, 28, 24, 1) 0%, rgba(142, 14, 0, 1) 100%);
+    background: -webkit-linear-gradient(308deg, rgba(31, 28, 24, 1) 0%, rgba(142, 14, 0, 1) 100%);
+    background: linear-gradient(308deg, rgba(31, 28, 24, 1) 0%, rgba(142, 14, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f1c18", endColorstr="#8e0e00", GradientType=1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    top: 60px;
+    left: 280px;
+    background: rgb(36, 11, 54);
+    background: -moz-linear-gradient(308deg, rgba(36, 11, 54, 1) 0%, rgba(195, 20, 50, 1) 100%);
+    background: -webkit-linear-gradient(308deg, rgba(36, 11, 54, 1) 0%, rgba(195, 20, 50, 1) 100%);
+    background: linear-gradient(308deg, rgba(36, 11, 54, 1) 0%, rgba(195, 20, 50, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240b36", endColorstr="#c31432", GradientType=1);
+
+}
+
+.circle-two {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 60px;
+    right: 280px;
+    background: rgb(36, 11, 54);
+    background: -moz-linear-gradient(308deg, rgba(36, 11, 54, 1) 0%, rgba(195, 20, 50, 1) 100%);
+    background: -webkit-linear-gradient(308deg, rgba(36, 11, 54, 1) 0%, rgba(195, 20, 50, 1) 100%);
+    background: linear-gradient(308deg, rgba(36, 11, 54, 1) 0%, rgba(195, 20, 50, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240b36", endColorstr="#c31432", GradientType=1);
+
+}
+
+.box {
+    height: 600px;
+    width: 500px;
+    backdrop-filter: blur(1px) saturate(200%);
+    -webkit-backdrop-filter: blur(1px) saturate(200%);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    z-index: 999;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.login-box {
+    margin-top: 10%;
+}
+
+@media only screen and (min-device-width : 768px)
+
+/* and (max-device-width : 1024px)   */
+    {
+
+    /* STYLES GO HERE */
+    .login-box {
+        margin-top: 2%;
+    }
+
+    .box {
+        height: 500px;
+        width: 400px;
+    }
+
+    .circle{
+        width: 100px;
+        height: 100px;
+        top: 20px;
+        left: 430px;
+    }
+    .circle-two{
+        width: 100px;
+        height: 100px;
+        bottom: 20px;
+        right: 430px;
+    }
+
+}
